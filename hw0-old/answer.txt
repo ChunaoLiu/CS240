@@ -1,0 +1,13 @@
+Question 1:  output of pwd is: /homes/cs240/public
+Question 2:  command for copy: cp ~cs240/public/style_sample.c ~/CS240/hw0
+Question 3: /
+	    |--CS240
+	    |    |
+	    |    ----hw0
+	    |         |
+	    |         |----style_sample.c
+	    |         |----style_sample.h
+	    |         |----answer.txt
+	    L________________________________
+Question 4:  A relative path is a pathway that relative to your current location. It will only start to count from your current position and will ignore all the paths that is between you and the root (Unless you're in a different pathway than the desired file, in that case, the relative path = the absolute path)
+	     An absolute path is the path from the root to the destination file. It will count all the pathway in and will ignore the user's current position. 
